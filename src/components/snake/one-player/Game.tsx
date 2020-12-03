@@ -74,7 +74,7 @@ export default class Game extends React.Component<IGameProps, IGameState> {
 
     shoot = () => {
         const {venom, direction, snake} = this.state;
-        if(venom != undefined) return;
+        //if(venom != undefined) return;
 
         //snake head
         const currentSnakeHead = snake[snake.length - 1];
