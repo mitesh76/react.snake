@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+  }
+
+  .game-container {
+    width: 500px;
+    background-color: greenyellow;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .game-container div.game-header {
+      padding: 15px;
+  }
+  .game-container div.game-header span.score {
+    float: left; font-size: 2em;
+  }
+  .game-container div.game-header div.score {
+    font-size: 2em; width:100%; text-align: left;
+  }
+
+  .snake-table {
+    margin-top: 30px;
+    border-collapse: unset;
+    width: 500px; 
+    height: 500px;
+    border: 2px solid #000;
+  }
+  
+  .snake-table td {
+    border: 1px;
+  }
+  .snake-table td.snake, .snake-table td.snake-player1 {
+    background-color: green;
+  }
+  .snake-table td.snake-head-up {
+    background-color: green;
+  }
+  .snake-table td.snake-head-down {
+    background-color: green;
+  }
+  .snake-table td.snake-head-left {
+    background-color: green;
+  }
+  .snake-table td.snake-head-right {
+    background-color: green;
+  }
+  
+  .snake-table td.snake-player2 {
+    background-color: orange;
+  }
+  .snake-table td.food {
+    background-color: black;
+  }
+  .snake-table td.venom {
+    background-color: red;
+  }

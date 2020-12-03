@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+table {
+  width: 1200px;
+  
+}
+table tr td {
+  font-size: 60px;
+  margin: 15px;
+  padding: 15px;
+  background-color: #eaeaea;
+  height: 90px;
+  width: 90px;
+}
+table tr td div {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.red {
+  background-color: red;
+  color: #fff;
+}
+.blue {
+  background-color: blue;
+  color: #fff;
+}
+th.connect4head {
+  cursor: pointer;
+  height: 30px;
+  padding: 15px;
+}
+
+th.connect4head:hover {
+  background-color: gray;
+
+} */
+
+.snake-table {
+  background-color: greenyellow;
+  position: absolute;
+  /* margin: 50% auto; */
+  width: 300px; 
+  height: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  border: 2px solid #000;
+}
+
+.snake-table td {
+  border: 1px;
+}
+.snake-table td.snake {
+  background-color: green;
+}
+.snake-table td.food {
+  background-color: red;
+}
+/* 
+.snake-screen {
+  position: relative;
+  
+  width: 500px;
+  height: 500px;
+  border: 2px solid #000;
+}
+.snake-body {
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: green;
+  border: 1px solid greenYellow;
+}
+
+.food {
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: red;
+  border: 1px solid greenYellow;
+  border-radius: 50%;
+} */
