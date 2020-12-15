@@ -6,9 +6,9 @@ import * as serviceWorker from './serviceWorker';
 import './snake.css';
 
 ReactDOM.render(
-  <React.StrictMode>
+  
     <App />
-  </React.StrictMode>,
+  ,
   document.getElementById('root')
 );
 
